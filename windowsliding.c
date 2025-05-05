@@ -30,10 +30,10 @@ int maxsum(int a[], int k, int n)
     for(i=k;i<n;i++)
     {
         sum += a[i]-a[i-k];
-    }
-    if(sum>maxm)
-    {
-        maxm=sum;
+	if(sum>maxm)
+	{
+	maxm=sum;
+	}
     }
     return maxm;
 }
